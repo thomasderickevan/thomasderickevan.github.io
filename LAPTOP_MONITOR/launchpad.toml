@@ -3,7 +3,7 @@ esp_toml_version = 1.0
 # Public base URL where the firmware binaries are hosted.
 # This assumes the files are published from:
 # https://thomasderickevan.github.io/LAPTOP_MONITOR/backup/
-firmware_images_url = "https://thomasderickevan.github.io/LAPTOP_MONITOR/backup/"
+firmware_images_url = "https://thomasderickevan.github.io/LAPTOP_MONITOR/"
 
 supported_apps = ["gemini-voice-assistant"]
 
