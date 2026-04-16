@@ -10,7 +10,7 @@ supported_apps = ["LAPTOP MONITOR"]
 # Optional public markdown describing the firmware/app.
 # config_readme_url = "https://your-domain.com/esp-box-3/README.md"
 
-[gemini-voice-assistant]
+[LAPTOP MONITOR]
 chipsets = ["ESP32-S3"]
 developKits.esp32-s3 = ["esp32-s3-box3"]
 description = "ESP-BOX-3 firmware with dashboard, laptop monitor, IR monitor, games, and music control UI."
@@ -33,7 +33,7 @@ flash_mode = "dio"
 flash_freq = "80m"
 flash_size = "16MB"
 
-[gemini-voice-assistant.flash_files.esp32-s3-box3]
+[LAPTOP MONITOR.flash_files.esp32-s3-box3]
 "0x0" = "bootloader.bin"
 "0x8000" = "partition-table.bin"
 "0xd000" = "ota_data_initial.bin"
