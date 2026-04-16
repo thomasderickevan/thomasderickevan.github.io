@@ -14,7 +14,7 @@ chipsets = ["ESP32-S3"]
 developKits.esp32-s3 = ["esp32-s3-box3"]
 
 # Sample-style image mapping for the supported board
-image.esp32-s3-box3 = "gemini_voice_assistant.bin"
+image.esp32-s3-box3 = "LAPTOP_MONITOR.bin"
 
 description = "ESP-BOX-3 firmware with laptop monitor, provisioning setup, IR monitor, games, and music control UI."
 android_app_url = ""
