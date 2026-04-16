@@ -10,6 +10,10 @@ ESP32-S3-BOX-3 firmware for:
 
 ## First Network Setup
 
+The published Launchpad firmware is intended to start with a fresh network setup.
+
+It does not ship with a preloaded Wi-Fi SSID like `METAINIT`.
+
 If the Box does not have a saved Wi-Fi SSID, or if normal Wi-Fi connection fails on boot, it falls back to provisioning mode automatically.
 
 Provisioning mode starts a local hotspot:
@@ -36,6 +40,8 @@ The ESP will:
 
 If the entered Wi-Fi is still unreachable on the next boot, the Box falls back to the setup hotspot again.
 
+This means a newly flashed device can be configured from scratch without rebuilding the firmware first.
+
 For a custom build, edit `sdkconfig.defaults` before building/flashing:
 
 ```ini
@@ -46,7 +52,7 @@ CONFIG_GEMINI_LAPTOP_IP="192.168.1.13"
 
 You can also change the same values through `menuconfig`.
 
-Build-time defaults are still useful for:
+Build-time defaults are still useful only for:
 - your own development firmware
 - preconfigured private deployments
 - testing without provisioning
