@@ -5,7 +5,7 @@ esp_toml_version = 1.0
 # https://thomasderickevan.github.io/LAPTOP_MONITOR/backup/
 firmware_images_url = "https://thomasderickevan.github.io/LAPTOP_MONITOR/"
 
-supported_apps = ["gemini-voice-assistant"]
+supported_apps = ["LAPTOP MONITOR"]
 
 # Optional public markdown describing the firmware/app.
 # config_readme_url = "https://your-domain.com/esp-box-3/README.md"
