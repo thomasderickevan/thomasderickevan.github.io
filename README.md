@@ -1,1 +1,0 @@
-# thomasderickevan.github.io
